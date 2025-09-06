@@ -48,6 +48,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "MongoDB.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "NewId": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             }
           },
           "imports": [
