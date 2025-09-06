@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gHeTEaCEkUQ=",
+  "success": true,
+  "projectFilePath": "/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/MyCourse.Catalog.API.csproj",
+  "expectedPackageFiles": [
+    "/home/onur/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/home/onur/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
