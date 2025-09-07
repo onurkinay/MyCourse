@@ -23,4 +23,8 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MyCourse.Shared\MyCourse.Shared.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -114,20 +114,20 @@ public class ServiceResult<T> : ServiceResult
     public T? Data { get; set; }
     public string? UrlAsCreated { get; set; }
     
-    public static ServiceResult SuccessAsOk(T Data, string url)
+    public static ServiceResult<T> SuccessAsOk(T data, string url)
     {
         return new ServiceResult<T>
         {
             Status = HttpStatusCode.Created,
-            Data = Data, 
+            Data = data, 
         };
     }
-    public static ServiceResult SuccessAsCreated(T Data, string url)
+    public static ServiceResult<T> SuccessAsCreated(T data, string url)
     {
         return new ServiceResult<T>
         {
             Status = HttpStatusCode.Created,
-            Data = Data,
+            Data = data,
             UrlAsCreated = url, 
         };
     }
