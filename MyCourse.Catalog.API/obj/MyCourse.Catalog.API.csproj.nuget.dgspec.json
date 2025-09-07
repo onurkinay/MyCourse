@@ -60,6 +60,10 @@
             "NewId": {
               "target": "Package",
               "version": "[4.0.1, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.7.2, )"
             }
           },
           "imports": [
