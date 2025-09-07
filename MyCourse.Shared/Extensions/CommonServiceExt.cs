@@ -1,6 +1,8 @@
 using System.Reflection;
+using FluentValidation;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using FluentValidation.AspNetCore;
 
 namespace MyCourse.Shared.Extensions;
 
@@ -10,7 +12,11 @@ public static class CommonServiceExt
     {
         services.AddHttpContextAccessor(); 
         services.AddMediatR(x => x.RegisterServicesFromAssemblyContaining(assembly));
+
+        services.AddFluentValidationAutoValidation();
+        services.AddValidatorsFromAssemblyContaining(assembly);
         
+        services.AddAutoMapper(assembly);
         return services;
     }
 }

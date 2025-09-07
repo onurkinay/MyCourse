@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "HQ0nhqnkxwQ=",
+  "dgSpecHash": "5OZiBR+V16k=",
   "success": true,
   "projectFilePath": "/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/MyCourse.Catalog.API.csproj",
   "expectedPackageFiles": [
+    "/home/onur/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/onur/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/home/onur/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/home/onur/.nuget/packages/fluentvalidation.aspnetcore/11.3.1/fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "/home/onur/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.11.0/fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "/home/onur/.nuget/packages/mediatr/13.0.0/mediatr.13.0.0.nupkg.sha512",
     "/home/onur/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/onur/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",

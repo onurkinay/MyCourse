@@ -60,3 +60,7 @@
 /home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/MyCourse.Shared.dll
 /home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/MyCourse.Shared.pdb
 /home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/Scalar.AspNetCore.dll
+/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/FluentValidation.dll
+/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/FluentValidation.AspNetCore.dll
+/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/FluentValidation.DependencyInjectionExtensions.dll
+/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/bin/Debug/net9.0/AutoMapper.dll
