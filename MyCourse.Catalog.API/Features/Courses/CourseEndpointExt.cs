@@ -2,6 +2,7 @@
 using MyCourse.Catalog.API.Features.Courses.Create;
 using MyCourse.Catalog.API.Features.Courses.Delete;
 using MyCourse.Catalog.API.Features.Courses.GetAll;
+using MyCourse.Catalog.API.Features.Courses.GetAllByUserId;
 using MyCourse.Catalog.API.Features.Courses.GetById;
 using MyCourse.Catalog.API.Features.Courses.Update;
 
@@ -15,7 +16,9 @@ public static class CourseEndpointExt
             .CreateCourseGroupItemEndpoint()
             .GetAllCoursesGroupItemEndpoint()
             .GetByIdCourseGroupItemEndpoint()
-            .UpdateCourseGroupItemEndpoint().DeleteCourseGroupItemEndpoint();
+            .UpdateCourseGroupItemEndpoint()
+            .DeleteCourseGroupItemEndpoint()
+            .GetByUserIdCourseGroupItemEndpoint();
 
     }
 }
