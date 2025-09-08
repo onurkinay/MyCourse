@@ -1,5 +1,6 @@
 using MyCourse.Catalog.API.Features.Categories.Create;
 using MyCourse.Catalog.API.Features.Categories.GetAll;
+using MyCourse.Catalog.API.Features.Categories.GetById;
 using MyCourse.Shared.Filters;
 
 namespace MyCourse.Catalog.API.Features.Categories;
@@ -10,7 +11,8 @@ public static class CategoryEndpointExt
     {
         app.MapGroup("api/categories")
             .CreateCategoryGroupItemEndpoint()
-            .GetAllCategoryGroupItemEndpoint();
+            .GetAllCategoryGroupItemEndpoint()
+            .GetByIdCategoryGroupItemEndpoint();
 
     }
 }

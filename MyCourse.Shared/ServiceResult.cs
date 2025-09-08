@@ -118,7 +118,7 @@ public class ServiceResult<T> : ServiceResult
     {
         return new ServiceResult<T>
         {
-            Status = HttpStatusCode.Created,
+            Status = HttpStatusCode.OK,
             Data = data, 
         };
     }
