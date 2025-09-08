@@ -20,7 +20,7 @@ public class CourseEntityConfiguration : IEntityTypeConfiguration<Course>
         builder.Property(x => x.CreatedDate).HasElementName("created");
         builder.Property(x => x.UserId).HasElementName("userId");
         builder.Property(x => x.CategoryId).HasElementName("categoryId");
-        builder.Property(x=>x.Picture).HasElementName("picture");
+        builder.Property(x=>x.ImageUrl).HasElementName("imageUrl");
         builder.Ignore(x => x.Category);
           
         builder.OwnsOne(x => x.Feature, feature =>

@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using MyCourse.Catalog.API;
 using MyCourse.Catalog.API.Features.Categories;
+using MyCourse.Catalog.API.Features.Courses;
 using MyCourse.Catalog.API.Options;
 using MyCourse.Catalog.API.Repositories;
 using MyCourse.Shared.Extensions;
@@ -22,6 +23,7 @@ var app = builder.Build();
 
 
 app.AddCategoryGroupEndpoint();
+app.AddCourseGroupEndpoint();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

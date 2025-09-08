@@ -4,9 +4,12 @@ public static class CreateCategoryEndpoint
 {
     public static RouteGroupBuilder CreateCategoryGroupItemEndpoint(this RouteGroupBuilder group)
     {
-        group.MapPost("/", 
+        group.MapPost("/",
             async (CreateCategoryCommand command, IMediator mediator) => (await mediator.Send(command))
-                .ToGenericResult()).AddEndpointFilter<ValidationFilter<CreateCategoryCommand>>();
+                .ToGenericResult())
+            .WithDisplayName("Create Category")
+            .Produces<Guid>(StatusCodes.Status201Created)
+            .AddEndpointFilter<ValidationFilter<CreateCategoryCommand>>();
         return group;
     }
 }
