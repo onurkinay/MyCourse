@@ -1,10 +1,4 @@
-using System.Net;
-using MassTransit;
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using MyCourse.Catalog.API.Repositories;
-using MyCourse.Shared;
-
+ 
 namespace MyCourse.Catalog.API.Features.Categories.Create;
 
 public class CreateCategoryCommandHandler(AppDbContext context) : IRequestHandler<CreateCategoryCommand, ServiceResult<CreateCategoryResponse>>

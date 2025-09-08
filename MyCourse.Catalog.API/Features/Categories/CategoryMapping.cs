@@ -1,5 +1,4 @@
-using AutoMapper;
-using MyCourse.Catalog.API.Features.Categories.Dtos;
+ 
 
 namespace MyCourse.Catalog.API.Features.Categories;
 

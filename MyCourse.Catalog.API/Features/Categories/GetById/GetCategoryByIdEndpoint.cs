@@ -1,11 +1,5 @@
-using System.Net;
-using AutoMapper;
-using MediatR;
-using MyCourse.Catalog.API.Features.Categories.Dtos;
-using MyCourse.Catalog.API.Features.Categories.GetAll;
-using MyCourse.Catalog.API.Repositories;
-using MyCourse.Shared;
-using MyCourse.Shared.Extensions;
+ 
+ 
 
 namespace MyCourse.Catalog.API.Features.Categories.GetById;
 

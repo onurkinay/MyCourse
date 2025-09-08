@@ -1,12 +1,5 @@
-using AutoMapper;
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using MyCourse.Catalog.API.Features.Categories.Create;
-using MyCourse.Catalog.API.Features.Categories.Dtos;
-using MyCourse.Catalog.API.Repositories;
-using MyCourse.Shared;
-using MyCourse.Shared.Extensions;
-using MyCourse.Shared.Filters;
+ 
+ 
 
 namespace MyCourse.Catalog.API.Features.Categories.GetAll;
 

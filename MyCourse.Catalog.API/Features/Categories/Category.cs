@@ -1,4 +1,4 @@
-using MyCourse.Catalog.API.Repositories;
+ 
 using MyCourse.Catalog.API.Features.Courses;
 
 namespace MyCourse.Catalog.API.Features.Categories;

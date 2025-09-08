@@ -1,8 +1,3 @@
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using MyCourse.Shared.Extensions;
-using MyCourse.Shared.Filters;
-
 namespace MyCourse.Catalog.API.Features.Categories.Create;
 
 public static class CreateCategoryEndpoint

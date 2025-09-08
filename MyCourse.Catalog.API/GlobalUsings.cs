@@ -1,0 +1,11 @@
+global using AutoMapper;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using MyCourse.Shared;
+global using MyCourse.Shared.Extensions;
+global using System.Net; 
+global using MassTransit; 
+global using MyCourse.Shared.Filters;
+global using FluentValidation;
+global using MyCourse.Catalog.API.Features.Categories.Dtos;
+global using MyCourse.Catalog.API.Repositories;
