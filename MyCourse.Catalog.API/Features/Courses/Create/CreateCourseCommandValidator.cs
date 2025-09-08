@@ -15,8 +15,7 @@ public class CreateCourseCommandValidator:AbstractValidator<CreateCourseCommand>
         RuleFor(x => x.Price)
             .NotEmpty().WithMessage("Price is required")
             .GreaterThan(0).WithMessage("Price must be greater than 0");
-
-        RuleFor(x => x.ImageUrl).NotEmpty().WithMessage("ImageUrl is required");
+ 
         
         RuleFor(x => x.CategoryId).NotEmpty().WithMessage("CategoryId is required");
 
