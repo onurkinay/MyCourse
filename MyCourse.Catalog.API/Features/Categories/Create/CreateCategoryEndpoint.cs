@@ -1,3 +1,5 @@
+using Asp.Versioning.Builder;
+
 namespace MyCourse.Catalog.API.Features.Categories.Create;
 
 public static class CreateCategoryEndpoint
@@ -9,7 +11,8 @@ public static class CreateCategoryEndpoint
                 .ToGenericResult())
             .WithDisplayName("Create Category")
             .Produces<Guid>(StatusCodes.Status201Created)
-            .AddEndpointFilter<ValidationFilter<CreateCategoryCommand>>();
+            
+            .AddEndpointFilter<ValidationFilter<CreateCategoryCommand>>().MapToApiVersion(1,0);
         return group;
     }
 }

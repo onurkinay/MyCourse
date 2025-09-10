@@ -1,12 +1,7 @@
-using System.Reflection;
-using Microsoft.Extensions.Options;
-using MongoDB.Driver;
 using MyCourse.Catalog.API;
 using MyCourse.Catalog.API.Features.Categories;
 using MyCourse.Catalog.API.Features.Courses;
 using MyCourse.Catalog.API.Options;
-using MyCourse.Catalog.API.Repositories;
-using MyCourse.Shared.Extensions;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,13 +12,11 @@ builder.Services.AddOptionsExt();
 builder.Services.AddDataseServiceExt();
 builder.Services.AddCommonServiceExt(typeof(CatalogAssembly));
 builder.Services.AddOpenApi();
-
+builder.Services.AddVersioningExt();
 var app = builder.Build();
-
-
-
-app.AddCategoryGroupEndpoint();
-app.AddCourseGroupEndpoint();
+ 
+app.AddCategoryGroupEndpoint(app.AddVersionSetExt());
+app.AddCourseGroupEndpoint(app.AddVersionSetExt());
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

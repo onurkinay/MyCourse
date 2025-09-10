@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5OZiBR+V16k=",
+  "dgSpecHash": "mWh9MWVGeyw=",
   "success": true,
   "projectFilePath": "/home/onur/project/dotnet/MyCourse/MyCourse.Catalog.API/MyCourse.Catalog.API.csproj",
   "expectedPackageFiles": [
+    "/home/onur/.nuget/packages/asp.versioning.abstractions/8.1.0/asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "/home/onur/.nuget/packages/asp.versioning.http/8.1.0/asp.versioning.http.8.1.0.nupkg.sha512",
+    "/home/onur/.nuget/packages/asp.versioning.mvc/8.1.0/asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "/home/onur/.nuget/packages/asp.versioning.mvc.apiexplorer/8.1.0/asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "/home/onur/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/onur/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/home/onur/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
